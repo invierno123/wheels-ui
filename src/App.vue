@@ -1,17 +1,18 @@
 <template>
 <div>
-  hi
-  <First/>
+  导航栏 | <router-link to="/">First</router-link>|
+<router-link to="/2">Second</router-link>
 </div>
+  <hr/>
+<router-view/>
+
 </template>
 
 <script>
-import First from './components/First.vue'
+
 
 export default {
   name: 'App',
-  components: {
-    First:First
-  }
+
 }
 </script>
