@@ -1,9 +1,5 @@
 <template>
-<div>
-  导航栏 | <router-link to="/">First</router-link>|
-<router-link to="/2">Second</router-link>
-</div>
-  <hr/>
+
 <router-view/>
 
 </template>
