@@ -5,13 +5,14 @@
 </template>
 
 <script lang="ts">
-import {ref , provide} from 'vue';
+import {ref, provide} from 'vue';
 
 export default {
   name: 'App',
   setup() {
-    const asideVisible = ref(false);
-    provide('aside',asideVisible);
+    const width = document.documentElement.clientWidth;
+    const asideVisible = ref(width > 500);
+    provide('aside', asideVisible);
   }
 
 };
