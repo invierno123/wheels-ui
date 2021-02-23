@@ -13,5 +13,5 @@ const history = createWebHashHistory();
   ]
 });
 router.afterEach(()=>{
-
+  console.log("路由切换了");
 })
