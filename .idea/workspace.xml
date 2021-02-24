@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30ff6473-df81-4e0f-900f-cbc7a787c3a4" name="Default Changelist" comment="初步搭建官网">
-      <change afterPath="$PROJECT_DIR$/src/lib/Switch.vue" afterDir="false" />
+    <list default="true" id="30ff6473-df81-4e0f-900f-cbc7a787c3a4" name="Default Changelist" comment="switch 页面按钮滚动">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SwitchDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwitchDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Switch.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Switch.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +50,7 @@
       <workItem from="1614062169419" duration="6534000" />
       <workItem from="1614094782135" duration="809000" />
       <workItem from="1614095632551" duration="316000" />
-      <workItem from="1614134919260" duration="1308000" />
+      <workItem from="1614134919260" duration="1972000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <created>1613316778041</created>
@@ -130,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614095112630</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="switch 页面按钮滚动">
+      <created>1614147829475</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1614147829476</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +165,7 @@
     <MESSAGE value="PC 默认显示边栏，手机默认不显示边栏" />
     <MESSAGE value="完成基本样式" />
     <MESSAGE value="初步搭建官网" />
-    <option name="LAST_COMMIT_MESSAGE" value="初步搭建官网" />
+    <MESSAGE value="switch 页面按钮滚动" />
+    <option name="LAST_COMMIT_MESSAGE" value="switch 页面按钮滚动" />
   </component>
 </project>
