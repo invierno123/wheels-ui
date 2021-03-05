@@ -1,14 +1,14 @@
 <template>
-  <button :class="{checked: value}" @click="toggle"><span></span></button>
+  <button class="wheel-switch" :class="{'wheel-checked': value}" @click="toggle"><span></span></button>
 </template>
-<style lang="scss" scoped>
+<style lang="scss">
 $h: 22px;
 $h2: $h - 4px;
-button {
+.wheel-switch {
   height: $h;
   width: $h*2;
   border: none;
-  background: grey;
+  background: #bfbfbf;
   border-radius: $h/2;
   position: relative;
 
@@ -20,14 +20,27 @@ button {
     width: $h2;
     background: white;
     border-radius: $h2/2;
-    transition: left 250ms;
+    transition: all 250ms;
   }
 
-  &.checked {
+  &.wheel-checked {
     background: blue;
 
     > span {
       left: calc(100% - #{$h2} - 2px)
+    }
+  }
+
+  &:active {
+    > span {
+      width: $h2 + 4px;
+    }
+  }
+
+  &.wheel-checked:active {
+    > span {
+      width: $h2 + 4px;
+      margin-left: -4px;
     }
   }
 
@@ -45,12 +58,12 @@ export default {
   props: {
     value: Boolean
   },
-  setup(props, context) {
-
-    const toggle = () => {
-      context.emit('update:value', !props.value);
-    };
-    return {toggle};
+  setup(props, context){
+    const toggle = ()=>{
+      context.emit('update:value', !props.value)
+      // this.$emit()
+    }
+    return {toggle}
   }
 };
 </script>
