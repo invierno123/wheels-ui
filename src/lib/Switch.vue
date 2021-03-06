@@ -1,5 +1,7 @@
 <template>
-  <button class="wheel-switch" :class="{'wheel-checked': value}" @click="toggle"><span></span></button>
+  <button class="wheel-switch" :class="{'wheel-checked': value}" @click="toggle">
+    <span></span>
+  </button>
 </template>
 <style lang="scss">
 $h: 22px;
