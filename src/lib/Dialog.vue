@@ -1,4 +1,5 @@
 <template>
+<template v-if="visible">
 <div class="wheel-dialog-overlay"></div>
   <div class="wheel-dialog-wrapper">
     <div class="wheel-dialog">
@@ -14,11 +15,17 @@
   </div>
   </div>
 </template>
-
+</template>
 <script lang="ts">
 import Button from './Button.vue';
 
 export default {
+  props:{
+    visible:{
+      type:Boolean,
+      default:false,
+    }
+  },
   components:{Button}
 }
 </script>
