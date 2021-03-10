@@ -3,10 +3,9 @@
     <div class="wheel-dialog-overlay" @click="onClickOverlay"></div>
     <div class="wheel-dialog-wrapper">
       <div class="wheel-dialog">
-        <header>不太<span @click="close" class="wheel-dialog-close"></span></header>
+        <header><slot name="title"/><span @click="close" class="wheel-dialog-close"></span></header>
         <main>
-          <p>的方法</p>
-          <p>长度</p>
+        <slot name="content"/>
         </main>
         <footer>
           <Button level="main" @click="ok">OK</Button>
@@ -21,6 +20,7 @@ import Button from './Button.vue';
 
 export default {
   props: {
+
     visible: {
       type: Boolean,
       default: false,

@@ -7,7 +7,17 @@
   <Dialog v-model:visible="x"
           :close-on-click-overlay="false"
           :ok="f1" :cancel="f2"
-  ></Dialog>
+  >
+    <template v-slot:title>
+      <strong>具名插槽</strong>
+    </template>
+    <template v-slot:content>
+      <div>123</div>
+      <div>456</div>
+    </template>
+
+  </Dialog>
+
 </template>
 <script lang="ts">
 import Dialog from '../lib/Dialog.vue';
@@ -26,11 +36,11 @@ export default {
     const f1 = () => {
       return false;
     };
-    const f2=()=>{
+    const f2 = () => {
       console.log(2);
-    }
+    };
     return {
-      x, toggle,f1,f2
+      x, toggle, f1, f2
     };
   }
 
