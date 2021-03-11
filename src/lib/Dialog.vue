@@ -1,19 +1,21 @@
 <template>
   <template v-if="visible">
     <Teleport to="body">
-    <div class="wheel-dialog-overlay" @click="onClickOverlay"></div>
-    <div class="wheel-dialog-wrapper">
-      <div class="wheel-dialog">
-        <header><slot name="title"/><span @click="close" class="wheel-dialog-close"></span></header>
-        <main>
-        <slot name="content"/>
-        </main>
-        <footer>
-          <Button level="main" @click="ok">OK</Button>
-          <Button @click="cancel">Cancel</Button>
-        </footer>
+      <div class="wheel-dialog-overlay" @click="onClickOverlay"></div>
+      <div class="wheel-dialog-wrapper">
+        <div class="wheel-dialog">
+          <header>
+            <slot name="title"/>
+            <span @click="close" class="wheel-dialog-close"></span></header>
+          <main>
+            <slot name="content"/>
+          </main>
+          <footer>
+            <Button level="main" @click="ok">OK</Button>
+            <Button @click="cancel">Cancel</Button>
+          </footer>
+        </div>
       </div>
-    </div>
     </Teleport>
   </template>
 </template>
@@ -54,7 +56,7 @@ export default {
       }
     };
     const cancel = () => {
-      context.emit('cancel');
+      props.cancel?.();
       close();
     };
     return {

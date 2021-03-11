@@ -3,7 +3,7 @@
     Dialog示例
   </div>
   <h1>示例1</h1>
-  <div style="position: relative;z-index: 1">
+  <div>
   <Button @click="toggle">toggle</Button>
   <Dialog v-model:visible="x"
           :close-on-click-overlay="false"
@@ -18,15 +18,15 @@
     </template>
 
   </Dialog>
-  </div>
-  <div style="position: relative; z-index: 2;width: 300px;height: 300px;background: lightcoral">
-
+    <h1>示例2</h1>
+    <Button @click="showDialog">show</Button>
   </div>
 </template>
 <script lang="ts">
 import Dialog from '../lib/Dialog.vue';
 import Button from '../lib/Button.vue';
 import {ref} from 'vue';
+import {openDialog} from '../lib/openDialog';
 
 export default {
   components: {
@@ -43,8 +43,14 @@ export default {
     const f2 = () => {
       console.log(2);
     };
+    const showDialog=()=>{
+      openDialog({
+        title:'标题',
+        content:'hello'
+      })
+    }
     return {
-      x, toggle, f1, f2
+      x, toggle, f1, f2,showDialog
     };
   }
 
