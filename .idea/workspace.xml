@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30ff6473-df81-4e0f-900f-cbc7a787c3a4" name="Default Changelist" comment="Dialog 实现关闭功能">
+    <list default="true" id="30ff6473-df81-4e0f-900f-cbc7a787c3a4" name="Default Changelist" comment="Dialog 自定义content和title；具名插槽">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/DialogDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DialogDemo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/Dialog.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Dialog.vue" afterDir="false" />
@@ -66,7 +66,7 @@
       <workItem from="1614684631776" duration="923000" />
       <workItem from="1614685719456" duration="13242000" />
       <workItem from="1615003120187" duration="4942000" />
-      <workItem from="1615284453134" duration="10197000" />
+      <workItem from="1615284453134" duration="11651000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <created>1613316778041</created>
@@ -229,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615354564235</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Dialog 自定义content和title；具名插槽">
+      <created>1615362190494</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1615362190494</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,14 +277,15 @@
     <MESSAGE value="添加组件样式" />
     <MESSAGE value="Dialog 支持 visible 属性" />
     <MESSAGE value="Dialog 实现关闭功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dialog 实现关闭功能" />
+    <MESSAGE value="Dialog 自定义content和title；具名插槽" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dialog 自定义content和title；具名插槽" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/lib/Dialog.vue</url>
-          <line>66</line>
+          <line>68</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
