@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30ff6473-df81-4e0f-900f-cbc7a787c3a4" name="Default Changelist" comment="创建 Tabs 和 Tab 组件">
+    <list default="true" id="30ff6473-df81-4e0f-900f-cbc7a787c3a4" name="Default Changelist" comment="渲染 Tab 内容">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Tab.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Tab.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TabsDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsDemo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/Tabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Tabs.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +68,8 @@
       <workItem from="1615003120187" duration="4942000" />
       <workItem from="1615284453134" duration="17618000" />
       <workItem from="1615564234272" duration="355000" />
-      <workItem from="1615605213171" duration="1939000" />
+      <workItem from="1615605213171" duration="5034000" />
+      <workItem from="1615624716083" duration="4487000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <created>1613316778041</created>
@@ -259,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615470605450</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="渲染 Tab 内容">
+      <created>1615614317228</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1615614317228</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,7 +286,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="初始样式" />
     <MESSAGE value="封装 TopNav 组件" />
     <MESSAGE value="初始化 aside 的 HTML" />
     <MESSAGE value="实现边栏的隐藏和显示" />
@@ -303,7 +310,8 @@
     <MESSAGE value="title 和 content作为对象打开dialog" />
     <MESSAGE value="当 title 和 content 作为对象时打开dialog" />
     <MESSAGE value="创建 Tabs 和 Tab 组件" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建 Tabs 和 Tab 组件" />
+    <MESSAGE value="渲染 Tab 内容" />
+    <option name="LAST_COMMIT_MESSAGE" value="渲染 Tab 内容" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
