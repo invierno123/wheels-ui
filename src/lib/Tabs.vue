@@ -1,13 +1,12 @@
 <template>
   <div class="wheel-tabs">
     <div class="wheel-tabs-nav" ref="container">
-      <div class="wheel-tabs-nav-item "
-           v-for="(t,index) in titles"
+      <div v-for="(t,index) in titles"
+           :key="index"
+           :ref="(el)=>{if (t===selected) selectedItem=el}"
            :class="{selected:t===selected}"
-           @click="select(t)"
-           :ref="el=>{if (el) navItems[index]=el}"
-           :key="index">{{ t }}
-
+           class="wheel-tabs-nav-item "
+           @click="select(t)">{{ t }}
       </div>
       <div class="wheel-tabs-nav-line" ref="navLine"></div>
     </div>
@@ -17,8 +16,9 @@
   </div>
 </template>
 <script lang="ts">
+
 import Tab from './Tab.vue';
-import {computed, ref, onMounted, onUpdated} from 'vue';
+import {computed, ref, onMounted, watchEffect, } from 'vue';
 
 export default {
   props: {
@@ -40,28 +40,50 @@ export default {
     const titles = defaults.map((tag) => {
       return tag.props.title;
     });
-    const navItems = ref<HTMLDivElement[]>([]);
+    const selectedItem = ref<HTMLDivElement>(null);
     const navLine = ref<HTMLDivElement>(null);
     const container = ref<HTMLDivElement>(null);
 
     const select = (title: string) => {
       context.emit('update:selected', title);
     };
-    const publicFunction = () => {
-      const divs = navItems.value;
-      const result = divs.filter(div => div.classList.contains('selected'))[0];
-      const {width} = result.getBoundingClientRect();
-      navLine.value.style.width = width + 'px';
-      const {left: left1} = container.value.getBoundingClientRect();
-      const {left: left2} = result.getBoundingClientRect();
-      const left = left2 - left1;
-      navLine.value.style.left = left + 'px';
-    };
-    onMounted(publicFunction);
-    onUpdated(publicFunction);
+    // const publicFunction = () => {
+    //   console.log(selectedItem.value);
+    //   if (selectedItem.value&&navLine.value){
+    //   const {width} = selectedItem.value.getBoundingClientRect();
+    //   navLine.value.style.width = width + 'px';
+    //   const {left: left1} = container.value.getBoundingClientRect();
+    //   const {left: left2} = selectedItem.value.getBoundingClientRect();
+    //   const left = left2 - left1;
+    //   navLine.value.style.left = left + 'px';}
+    // };
+    // onMounted(publicFunction);
+    // onUpdated(publicFunction);
+    onMounted(() => {
+
+      watchEffect(() => {
+
+        const {
+          width
+        } = selectedItem.value.getBoundingClientRect();
+        navLine.value.style.width = width + 'px';
+        const {
+          left: left1
+        } = container.value.getBoundingClientRect();
+        const {
+          left: left2
+        } = selectedItem.value.getBoundingClientRect();
+        const left = left2 - left1;
+        navLine.value.style.left = left + 'px';
+
+
+      });
+
+    });
+
     return {
       defaults, titles, current,
-      select, navItems, navLine,
+      select, selectedItem, navLine,
       container
     };
   }
