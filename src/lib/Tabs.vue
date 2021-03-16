@@ -47,22 +47,10 @@ export default {
     const select = (title: string) => {
       context.emit('update:selected', title);
     };
-    // const publicFunction = () => {
-    //   console.log(selectedItem.value);
-    //   if (selectedItem.value&&navLine.value){
-    //   const {width} = selectedItem.value.getBoundingClientRect();
-    //   navLine.value.style.width = width + 'px';
-    //   const {left: left1} = container.value.getBoundingClientRect();
-    //   const {left: left2} = selectedItem.value.getBoundingClientRect();
-    //   const left = left2 - left1;
-    //   navLine.value.style.left = left + 'px';}
-    // };
-    // onMounted(publicFunction);
-    // onUpdated(publicFunction);
+
     onMounted(() => {
 
       watchEffect(() => {
-        console.log(selectedItem.value);
         const {
           width
         } = selectedItem.value.getBoundingClientRect();
@@ -77,7 +65,7 @@ export default {
         navLine.value.style.left = left + 'px';
 
 
-      });
+      },{flush:'post'});
 
     });
 
