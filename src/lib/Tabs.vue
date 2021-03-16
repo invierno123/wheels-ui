@@ -62,7 +62,7 @@ export default {
     onMounted(() => {
 
       watchEffect(() => {
-
+        console.log(selectedItem.value);
         const {
           width
         } = selectedItem.value.getBoundingClientRect();
