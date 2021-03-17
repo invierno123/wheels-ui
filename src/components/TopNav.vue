@@ -1,6 +1,10 @@
 <template>
   <div class="topNav">
-    <div class="logo">LOGO</div>
+    <div class="logo">
+      <svg class="icon">
+        <use xlink:href="#icon-setting"></use>
+      </svg>
+    </div>
     <ul class="menu">
       <li>菜单1</li>
       <li>菜单2</li>
@@ -9,19 +13,22 @@
   </div>
 </template>
 <script lang="ts">
-import { inject, Ref } from "vue";
+import {inject, Ref} from 'vue';
+
 export default {
   setup() {
-    const asideVisible = inject<Ref<boolean>>("aside"); // get
+    const asideVisible = inject<Ref<boolean>>('aside'); // get
     const toggleMenu = () => {
       asideVisible.value = !asideVisible.value;
     };
-    return { toggleMenu };
+    return {toggleMenu};
   },
 };
 </script>
 <style lang="scss" scoped>
+$color: #007974;
 .topNav {
+  color: $color;
   display: flex;
   padding: 16px;
   position: fixed;
@@ -31,18 +38,27 @@ export default {
   z-index: 10;
   justify-content: center;
   align-items: center;
+
   > .logo {
     max-width: 6em;
     margin-right: auto;
+
+    > svg {
+      height: 28px;
+      width: 28px;
+    }
   }
+
   > .menu {
     display: flex;
     white-space: nowrap;
     flex-wrap: nowrap;
+
     > li {
       margin: 0 1em;
     }
   }
+
   > .toggleAside {
     width: 24px;
     height: 24px;
@@ -53,6 +69,7 @@ export default {
     transform: translateY(-50%);
     display: none;
   }
+
   @media (max-width: 500px) {
     > .menu {
       display: none;

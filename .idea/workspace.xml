@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30ff6473-df81-4e0f-900f-cbc7a787c3a4" name="Default Changelist" comment="代码优化+watchEffect的使用（存在问题）">
+    <list default="true" id="30ff6473-df81-4e0f-900f-cbc7a787c3a4" name="Default Changelist" comment="解决 watchEffect 的遗留问题（副作用刷新时机）">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Tabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Tabs.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TopNav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopNav.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +31,13 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/invierno123/wheels-ui" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1oSjG5ByqigDKJV7A78ENV9Tz9p" />
   <component name="ProjectViewState">
@@ -71,7 +80,7 @@
       <workItem from="1615564234272" duration="355000" />
       <workItem from="1615605213171" duration="5034000" />
       <workItem from="1615624716083" duration="8815000" />
-      <workItem from="1615787452476" duration="22121000" />
+      <workItem from="1615787452476" duration="29841000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <created>1613316778041</created>
@@ -290,7 +299,21 @@
       <option name="project" value="LOCAL" />
       <updated>1615820841048</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="背景渐变">
+      <created>1615876612757</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1615876612757</updated>
+    </task>
+    <task id="LOCAL-00033" summary="解决 watchEffect 的遗留问题（副作用刷新时机）">
+      <created>1615882821800</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1615882821800</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,8 +332,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="TopNav 响应式" />
-    <MESSAGE value="PC 默认显示边栏，手机默认不显示边栏" />
     <MESSAGE value="完成基本样式" />
     <MESSAGE value="初步搭建官网" />
     <MESSAGE value="switch 页面按钮滚动" />
@@ -334,7 +355,9 @@
     <MESSAGE value="内容切换，显示被选中的内容" />
     <MESSAGE value="实现下划线的切换" />
     <MESSAGE value="代码优化+watchEffect的使用（存在问题）" />
-    <option name="LAST_COMMIT_MESSAGE" value="代码优化+watchEffect的使用（存在问题）" />
+    <MESSAGE value="背景渐变" />
+    <MESSAGE value="解决 watchEffect 的遗留问题（副作用刷新时机）" />
+    <option name="LAST_COMMIT_MESSAGE" value="解决 watchEffect 的遗留问题（副作用刷新时机）" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
