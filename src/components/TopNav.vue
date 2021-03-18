@@ -49,6 +49,7 @@ $color: #007974;
   justify-content: center;
   align-items: center;
 
+
   > .logo {
     max-width: 6em;
     margin-right: auto;
@@ -73,6 +74,7 @@ $color: #007974;
     width: 24px;
     height: 24px;
     position: absolute;
+
     left: 16px;
     top: 50%;
     transform: translateY(-50%);
@@ -81,6 +83,7 @@ $color: #007974;
   }
 
   @media (max-width: 500px) {
+
     > .menu {
       display: none;
     }
