@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30ff6473-df81-4e0f-900f-cbc7a787c3a4" name="Default Changelist" comment="抽离准备展示的代码">
+    <list default="true" id="30ff6473-df81-4e0f-900f-cbc7a787c3a4" name="Default Changelist" comment="展示源代码">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Switch1.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Switch1.demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Switch2.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Switch2.demo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SwitchDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwitchDemo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +88,7 @@
       <workItem from="1615624716083" duration="8815000" />
       <workItem from="1615787452476" duration="33274000" />
       <workItem from="1615956515288" duration="599000" />
-      <workItem from="1615957318206" duration="29865000" />
+      <workItem from="1615957318206" duration="31579000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <created>1613316778041</created>
@@ -371,7 +370,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616057725899</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="展示源代码">
+      <created>1616071867246</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1616071867246</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -390,7 +396,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="创建Button组件" />
     <MESSAGE value="优化 CSS" />
     <MESSAGE value="添加theme属性" />
     <MESSAGE value="创建 Dialog 组件" />
@@ -415,7 +420,8 @@
     <MESSAGE value="支持markdown文件" />
     <MESSAGE value="代码优化" />
     <MESSAGE value="抽离准备展示的代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="抽离准备展示的代码" />
+    <MESSAGE value="展示源代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="展示源代码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
