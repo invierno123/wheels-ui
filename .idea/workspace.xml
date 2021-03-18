@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30ff6473-df81-4e0f-900f-cbc7a787c3a4" name="Default Changelist" comment="填充组件内容（引入github-markdown-css）">
-      <change afterPath="$PROJECT_DIR$/plugins/md.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/markdown/get-started.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/markdown/install.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/markdown/intro.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
+    <list default="true" id="30ff6473-df81-4e0f-900f-cbc7a787c3a4" name="Default Changelist" comment="支持markdown文件">
+      <change afterPath="$PROJECT_DIR$/src/components/Markdown.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/GetStarted.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/GetStarted.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/InstallStart.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/InstallStart.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Intro.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Intro.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/GetStarted.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/InstallStart.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Intro.vue" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
+        <option value="package.json" />
         <option value="Vue Single File Component" />
       </list>
     </option>
@@ -93,7 +90,7 @@
       <workItem from="1615624716083" duration="8815000" />
       <workItem from="1615787452476" duration="33274000" />
       <workItem from="1615956515288" duration="599000" />
-      <workItem from="1615957318206" duration="9774000" />
+      <workItem from="1615957318206" duration="16290000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <created>1613316778041</created>
@@ -354,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615963192014</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="支持markdown文件">
+      <created>1615971755577</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1615971755577</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,7 +377,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="可以接受 value和input 事件" />
     <MESSAGE value="使用v-model改写" />
     <MESSAGE value="整理代码" />
     <MESSAGE value="创建Button组件" />
@@ -398,7 +401,8 @@
     <MESSAGE value="实现首页圆弧" />
     <MESSAGE value="选中组件高亮" />
     <MESSAGE value="填充组件内容（引入github-markdown-css）" />
-    <option name="LAST_COMMIT_MESSAGE" value="填充组件内容（引入github-markdown-css）" />
+    <MESSAGE value="支持markdown文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="支持markdown文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -407,6 +411,12 @@
           <url>file://$PROJECT_DIR$/src/lib/Dialog.vue</url>
           <line>70</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/router.ts</url>
+          <line>26</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
