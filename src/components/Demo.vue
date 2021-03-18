@@ -19,7 +19,7 @@ import {computed, ref} from 'vue';
 import Button from '../lib/Button.vue';
 
 const Prism = (window as any).Prism;
-const codeVisible=ref(false)
+
 export default {
   components: {Button},
   props: {
@@ -30,10 +30,11 @@ export default {
       return Prism.highlight(props.component.__sourceCode,
           Prism.languages.html, 'html');
     });
-    const toggleCode=()=>{
-      codeVisible.value=!codeVisible.value
-    }
-    return {Prism, html,codeVisible,toggleCode};
+    const codeVisible = ref(false);
+    const toggleCode = () => {
+      codeVisible.value = !codeVisible.value;
+    };
+    return {Prism, html, codeVisible, toggleCode};
   }
 };
 </script>

@@ -5,33 +5,22 @@
     <Demo :component="Switch2Demo"/>
   </div>
 </template>
-
-
 <script lang="ts">
-
-import Button from '../lib/Button.vue';
 import Switch1Demo from './Switch1.demo.vue';
 import Switch2Demo from './Switch1.demo.vue';
-import 'prismjs';
-import 'prismjs/themes/prism-tomorrow.css';
-import {
-  ref
-} from 'vue';
 import Demo from './Demo.vue';
-const Prism=(window as any).Prism
 export default {
   components: {
     Demo,
-    Button
+
   },
 
   setup() {
-    const bool = ref(false);
+
     return {
-      bool,
       Switch1Demo,
       Switch2Demo,
-      Prism
+
     };
   }
 };
@@ -41,8 +30,6 @@ $border-color: #d9d9d9;
 .demo {
   border: 1px solid $border-color;
   margin: 16px 0 32px;
-
-
   > h2 {
     font-size: 20px;
     padding: 8px 16px;
