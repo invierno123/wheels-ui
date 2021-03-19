@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30ff6473-df81-4e0f-900f-cbc7a787c3a4" name="Default Changelist" comment="完善 Dialog 组件">
-      <change afterPath="$PROJECT_DIR$/src/components/Tabs1.demo.vue" afterDir="false" />
+    <list default="true" id="30ff6473-df81-4e0f-900f-cbc7a787c3a4" name="Default Changelist" comment="解决 build 后产生的 bug">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ButtonDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ButtonDemo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DialogDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DialogDemo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TabsDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsDemo.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +47,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="ts.external.directory.path" value="D:\SoftWare\WebStorm 2020.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -89,14 +86,8 @@
       <workItem from="1615624716083" duration="8815000" />
       <workItem from="1615787452476" duration="33274000" />
       <workItem from="1615956515288" duration="599000" />
-      <workItem from="1615957318206" duration="50041000" />
-    </task>
-    <task id="LOCAL-00001" summary="初始化项目">
-      <created>1613316778041</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1613316778041</updated>
+      <workItem from="1615957318206" duration="51923000" />
+      <workItem from="1616168281308" duration="3747000" />
     </task>
     <task id="LOCAL-00002" summary="初始化项目">
       <created>1613317057883</created>
@@ -427,7 +418,21 @@
       <option name="project" value="LOCAL" />
       <updated>1616165431820</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="完善 Tabs 组件">
+      <created>1616166176166</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1616166176166</updated>
+    </task>
+    <task id="LOCAL-00050" summary="解决 build 后产生的 bug">
+      <created>1616172050808</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1616172050808</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -446,8 +451,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="使用Teleport" />
-    <MESSAGE value="title 和 content作为对象打开dialog" />
     <MESSAGE value="当 title 和 content 作为对象时打开dialog" />
     <MESSAGE value="创建 Tabs 和 Tab 组件" />
     <MESSAGE value="渲染 Tab 内容" />
@@ -471,7 +474,9 @@
     <MESSAGE value="修正 switch 组件的引入并显示对应标题" />
     <MESSAGE value="完善 Button 组件" />
     <MESSAGE value="完善 Dialog 组件" />
-    <option name="LAST_COMMIT_MESSAGE" value="完善 Dialog 组件" />
+    <MESSAGE value="完善 Tabs 组件" />
+    <MESSAGE value="解决 build 后产生的 bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="解决 build 后产生的 bug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -483,14 +488,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/router.ts</url>
-          <line>25</line>
-          <properties lambdaOrdinal="-1" />
+          <line>29</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/Button1.demo.vue</url>
           <line>13</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
