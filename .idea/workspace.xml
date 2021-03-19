@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30ff6473-df81-4e0f-900f-cbc7a787c3a4" name="Default Changelist" comment="完善 Button 组件">
-      <change afterPath="$PROJECT_DIR$/src/components/Dialog1.demo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Dialog2.demo.vue" afterDir="false" />
+    <list default="true" id="30ff6473-df81-4e0f-900f-cbc7a787c3a4" name="Default Changelist" comment="完善 Dialog 组件">
+      <change afterPath="$PROJECT_DIR$/src/components/Tabs1.demo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ButtonDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ButtonDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DialogDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DialogDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TabsDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsDemo.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +89,7 @@
       <workItem from="1615624716083" duration="8815000" />
       <workItem from="1615787452476" duration="33274000" />
       <workItem from="1615956515288" duration="599000" />
-      <workItem from="1615957318206" duration="49083000" />
+      <workItem from="1615957318206" duration="50041000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <created>1613316778041</created>
@@ -417,7 +420,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616165026108</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="完善 Dialog 组件">
+      <created>1616165431820</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1616165431820</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -436,7 +446,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Dialog 自定义content和title；具名插槽" />
     <MESSAGE value="使用Teleport" />
     <MESSAGE value="title 和 content作为对象打开dialog" />
     <MESSAGE value="当 title 和 content 作为对象时打开dialog" />
@@ -461,7 +470,8 @@
     <MESSAGE value="优化代码" />
     <MESSAGE value="修正 switch 组件的引入并显示对应标题" />
     <MESSAGE value="完善 Button 组件" />
-    <option name="LAST_COMMIT_MESSAGE" value="完善 Button 组件" />
+    <MESSAGE value="完善 Dialog 组件" />
+    <option name="LAST_COMMIT_MESSAGE" value="完善 Dialog 组件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
