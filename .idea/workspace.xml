@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30ff6473-df81-4e0f-900f-cbc7a787c3a4" name="Default Changelist" comment="删除部分无用代码，纠正 codeVisible 的位置">
+    <list default="true" id="30ff6473-df81-4e0f-900f-cbc7a787c3a4" name="Default Changelist" comment="修正 switch 组件的引入并显示对应标题">
+      <change afterPath="$PROJECT_DIR$/src/components/Button1.demo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Button2.demo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Button3.demo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Button4.demo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Button5.demo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DocDemo.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ButtonDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ButtonDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Button.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +93,7 @@
       <workItem from="1615624716083" duration="8815000" />
       <workItem from="1615787452476" duration="33274000" />
       <workItem from="1615956515288" duration="599000" />
-      <workItem from="1615957318206" duration="34789000" />
+      <workItem from="1615957318206" duration="48708000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <created>1613316778041</created>
@@ -398,7 +403,21 @@
       <option name="project" value="LOCAL" />
       <updated>1616075854128</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="优化代码">
+      <created>1616076806514</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1616076806514</updated>
+    </task>
+    <task id="LOCAL-00046" summary="修正 switch 组件的引入并显示对应标题">
+      <created>1616161646157</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1616161646157</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -417,8 +436,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加组件样式" />
-    <MESSAGE value="Dialog 支持 visible 属性" />
     <MESSAGE value="Dialog 实现关闭功能" />
     <MESSAGE value="Dialog 自定义content和title；具名插槽" />
     <MESSAGE value="使用Teleport" />
@@ -442,7 +459,9 @@
     <MESSAGE value="高亮源代码" />
     <MESSAGE value="抽离 Demo 部分代码" />
     <MESSAGE value="删除部分无用代码，纠正 codeVisible 的位置" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除部分无用代码，纠正 codeVisible 的位置" />
+    <MESSAGE value="优化代码" />
+    <MESSAGE value="修正 switch 组件的引入并显示对应标题" />
+    <option name="LAST_COMMIT_MESSAGE" value="修正 switch 组件的引入并显示对应标题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -457,6 +476,12 @@
           <line>25</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Button1.demo.vue</url>
+          <line>13</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
