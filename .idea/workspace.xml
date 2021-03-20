@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30ff6473-df81-4e0f-900f-cbc7a787c3a4" name="Default Changelist" comment="忽略 dist 目录">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="30ff6473-df81-4e0f-900f-cbc7a787c3a4" name="Default Changelist" comment="修改配置，部署官网">
+      <change afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +39,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1oSjG5ByqigDKJV7A78ENV9Tz9p" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -90,13 +91,7 @@
       <workItem from="1615957318206" duration="51923000" />
       <workItem from="1616168281308" duration="7470000" />
       <workItem from="1616176406933" duration="1040000" />
-    </task>
-    <task id="LOCAL-00003" summary="初始化路由">
-      <created>1613481493078</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1613481493078</updated>
+      <workItem from="1616207699347" duration="970000" />
     </task>
     <task id="LOCAL-00004" summary="初始样式">
       <created>1613662589110</created>
@@ -434,7 +429,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616172144992</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="修改配置，部署官网">
+      <created>1616207814416</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1616207814417</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -453,7 +455,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="创建 Tabs 和 Tab 组件" />
     <MESSAGE value="渲染 Tab 内容" />
     <MESSAGE value="内容切换，显示被选中的内容" />
     <MESSAGE value="实现下划线的切换" />
@@ -478,7 +479,8 @@
     <MESSAGE value="完善 Tabs 组件" />
     <MESSAGE value="解决 build 后产生的 bug" />
     <MESSAGE value="忽略 dist 目录" />
-    <option name="LAST_COMMIT_MESSAGE" value="忽略 dist 目录" />
+    <MESSAGE value="修改配置，部署官网" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改配置，部署官网" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
