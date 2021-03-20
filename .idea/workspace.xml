@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30ff6473-df81-4e0f-900f-cbc7a787c3a4" name="Default Changelist" comment="优化展示隐藏代码按钮">
-      <change afterPath="$PROJECT_DIR$/src/lib/index.ts" afterDir="false" />
+    <list default="true" id="30ff6473-df81-4e0f-900f-cbc7a787c3a4" name="Default Changelist" comment="创建lib/index.ts">
+      <change afterPath="$PROJECT_DIR$/rollup.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,14 +92,7 @@
       <workItem from="1615957318206" duration="51923000" />
       <workItem from="1616168281308" duration="7470000" />
       <workItem from="1616176406933" duration="1040000" />
-      <workItem from="1616207699347" duration="3669000" />
-    </task>
-    <task id="LOCAL-00006" summary="初始化 aside 的 HTML">
-      <created>1613828987410</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1613828987410</updated>
+      <workItem from="1616207699347" duration="7908000" />
     </task>
     <task id="LOCAL-00007" summary="实现边栏的隐藏和显示">
       <created>1613831437317</created>
@@ -435,7 +430,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616212821801</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="创建lib/index.ts">
+      <created>1616213692157</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1616213692157</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -454,7 +456,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="实现下划线的切换" />
     <MESSAGE value="代码优化+watchEffect的使用（存在问题）" />
     <MESSAGE value="背景渐变" />
     <MESSAGE value="解决 watchEffect 的遗留问题（副作用刷新时机）" />
@@ -479,7 +480,8 @@
     <MESSAGE value="修改配置，部署官网" />
     <MESSAGE value="添加一键部署脚本" />
     <MESSAGE value="优化展示隐藏代码按钮" />
-    <option name="LAST_COMMIT_MESSAGE" value="优化展示隐藏代码按钮" />
+    <MESSAGE value="创建lib/index.ts" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建lib/index.ts" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
