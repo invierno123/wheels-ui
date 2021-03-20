@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30ff6473-df81-4e0f-900f-cbc7a787c3a4" name="Default Changelist" comment="修改配置，部署官网">
-      <change afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
+    <list default="true" id="30ff6473-df81-4e0f-900f-cbc7a787c3a4" name="Default Changelist" comment="添加一键部署脚本">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Demo.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,14 +90,7 @@
       <workItem from="1615957318206" duration="51923000" />
       <workItem from="1616168281308" duration="7470000" />
       <workItem from="1616176406933" duration="1040000" />
-      <workItem from="1616207699347" duration="970000" />
-    </task>
-    <task id="LOCAL-00004" summary="初始样式">
-      <created>1613662589110</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1613662589110</updated>
+      <workItem from="1616207699347" duration="2980000" />
     </task>
     <task id="LOCAL-00005" summary="封装 TopNav 组件">
       <created>1613721217520</created>
@@ -436,7 +428,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616207814417</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="添加一键部署脚本">
+      <created>1616208782229</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1616208782229</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -455,7 +454,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="渲染 Tab 内容" />
     <MESSAGE value="内容切换，显示被选中的内容" />
     <MESSAGE value="实现下划线的切换" />
     <MESSAGE value="代码优化+watchEffect的使用（存在问题）" />
@@ -480,7 +478,8 @@
     <MESSAGE value="解决 build 后产生的 bug" />
     <MESSAGE value="忽略 dist 目录" />
     <MESSAGE value="修改配置，部署官网" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改配置，部署官网" />
+    <MESSAGE value="添加一键部署脚本" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加一键部署脚本" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
