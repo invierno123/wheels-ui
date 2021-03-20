@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30ff6473-df81-4e0f-900f-cbc7a787c3a4" name="Default Changelist" comment="创建lib/index.ts">
-      <change afterPath="$PROJECT_DIR$/rollup.config.js" afterDir="false" />
+    <list default="true" id="30ff6473-df81-4e0f-900f-cbc7a787c3a4" name="Default Changelist" comment="rollup安装出错">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,14 +91,9 @@
       <workItem from="1615957318206" duration="51923000" />
       <workItem from="1616168281308" duration="7470000" />
       <workItem from="1616176406933" duration="1040000" />
-      <workItem from="1616207699347" duration="7908000" />
-    </task>
-    <task id="LOCAL-00007" summary="实现边栏的隐藏和显示">
-      <created>1613831437317</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1613831437317</updated>
+      <workItem from="1616207699347" duration="10696000" />
+      <workItem from="1616220472581" duration="795000" />
+      <workItem from="1616221629667" duration="2191000" />
     </task>
     <task id="LOCAL-00008" summary="TopNav 响应式">
       <created>1613921769024</created>
@@ -437,7 +431,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616213692157</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="rollup安装出错">
+      <created>1616217807248</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1616217807248</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -456,7 +457,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="代码优化+watchEffect的使用（存在问题）" />
     <MESSAGE value="背景渐变" />
     <MESSAGE value="解决 watchEffect 的遗留问题（副作用刷新时机）" />
     <MESSAGE value="引入图标" />
@@ -481,7 +481,8 @@
     <MESSAGE value="添加一键部署脚本" />
     <MESSAGE value="优化展示隐藏代码按钮" />
     <MESSAGE value="创建lib/index.ts" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建lib/index.ts" />
+    <MESSAGE value="rollup安装出错" />
+    <option name="LAST_COMMIT_MESSAGE" value="rollup安装出错" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
