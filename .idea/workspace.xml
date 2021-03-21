@@ -1,27 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30ff6473-df81-4e0f-900f-cbc7a787c3a4" name="Default Changelist" comment="改正 &#10;修复 rollup 安装 bug">
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="30ff6473-df81-4e0f-900f-cbc7a787c3a4" name="Default Changelist" comment="npm 发布后使用有问题">
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rollup.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/rollup.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button1.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button1.demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button2.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button2.demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button3.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button3.demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button4.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button4.demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button5.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button5.demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialog1.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialog1.demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialog2.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialog2.demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Switch1.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Switch1.demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Switch2.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Switch2.demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Tabs1.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Tabs1.demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Button.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Tab.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Tab.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Tabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Tabs.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markdown/get-started.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/get-started.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -143,14 +124,7 @@
       <workItem from="1616248999111" duration="960000" />
       <workItem from="1616250237377" duration="10343000" />
       <workItem from="1616262651467" duration="676000" />
-      <workItem from="1616287707016" duration="6944000" />
-    </task>
-    <task id="LOCAL-00009" summary="PC 默认显示边栏，手机默认不显示边栏">
-      <created>1613922401033</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1613922401033</updated>
+      <workItem from="1616287707016" duration="7409000" />
     </task>
     <task id="LOCAL-00010" summary="完成基本样式">
       <created>1614093850466</created>
@@ -488,7 +462,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616232326633</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="npm 发布后使用有问题">
+      <created>1616294766745</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1616294766746</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -507,7 +488,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="解决 watchEffect 的遗留问题（副作用刷新时机）" />
     <MESSAGE value="引入图标" />
     <MESSAGE value="实现首页圆弧" />
     <MESSAGE value="选中组件高亮" />
@@ -532,7 +512,8 @@
     <MESSAGE value="创建lib/index.ts" />
     <MESSAGE value="rollup安装出错" />
     <MESSAGE value="改正 &#10;修复 rollup 安装 bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="改正 &#10;修复 rollup 安装 bug" />
+    <MESSAGE value="npm 发布后使用有问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="npm 发布后使用有问题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

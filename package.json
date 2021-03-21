@@ -1,6 +1,6 @@
 {
   "name": "invierno-wheel",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "files": [
     "dist/lib/*"
   ],
@@ -11,13 +11,13 @@
     "build": "vite build"
   },
   "resolutions": {
-    "node-sass": "npm:sass@1.26.11"
+    "node-sass": "npm:sass@^1.26.11"
   },
   "dependencies": {
-    "github-markdown-css": "4.0.0",
-    "marked": "1.1.1",
-    "prismjs": "1.21.0",
-    "vue": "3.0.0",
+    "github-markdown-css": "^4.0.0",
+    "marked": "^1.1.1",
+    "prismjs": "^1.21.0",
+    "vue": "^3.0.0",
     "vue-router": "4.0.0-beta.3"
   },
   "devDependencies": {
