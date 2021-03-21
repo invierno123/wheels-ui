@@ -9,7 +9,9 @@
 
 
 import {ref} from 'vue';
-import Switch from '../lib/Switch.vue';
+import {
+  Switch
+} from '../lib/index'
 
 export default {
   components: {

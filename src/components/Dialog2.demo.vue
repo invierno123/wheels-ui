@@ -8,14 +8,15 @@
 </template>
 
 <script lang="ts">
-import Button from '../lib/Button.vue'
+import {
+  Button,
+  openDialog
+} from '../lib/index';
 import {
   ref,
   h
-} from 'vue'
-import {
-  openDialog
-} from '../lib/openDialog'
+} from 'vue';
+
 export default {
   components: {
     Button
@@ -26,16 +27,16 @@ export default {
         title: h('strong', {}, '标题'),
         content: '你好',
         ok() {
-          console.log('ok')
+          console.log('ok');
         },
         cancel() {
-          console.log('cancel')
+          console.log('cancel');
         }
-      })
-    }
+      });
+    };
     return {
       showDialog
-    }
+    };
   }
-}
+};
 </script>
