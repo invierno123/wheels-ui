@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30ff6473-df81-4e0f-900f-cbc7a787c3a4" name="Default Changelist" comment="npm 发布后使用有问题">
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    <list default="true" id="30ff6473-df81-4e0f-900f-cbc7a787c3a4" name="Default Changelist" comment="解决问题">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialog1.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialog1.demo.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,14 +125,7 @@
       <workItem from="1616248999111" duration="960000" />
       <workItem from="1616250237377" duration="10343000" />
       <workItem from="1616262651467" duration="676000" />
-      <workItem from="1616287707016" duration="7409000" />
-    </task>
-    <task id="LOCAL-00010" summary="完成基本样式">
-      <created>1614093850466</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1614093850466</updated>
+      <workItem from="1616287707016" duration="8541000" />
     </task>
     <task id="LOCAL-00011" summary="初步搭建官网">
       <created>1614095112630</created>
@@ -469,7 +463,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616294766746</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="解决问题">
+      <created>1616295418442</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1616295418442</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -488,7 +489,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="引入图标" />
     <MESSAGE value="实现首页圆弧" />
     <MESSAGE value="选中组件高亮" />
     <MESSAGE value="填充组件内容（引入github-markdown-css）" />
@@ -513,7 +513,8 @@
     <MESSAGE value="rollup安装出错" />
     <MESSAGE value="改正 &#10;修复 rollup 安装 bug" />
     <MESSAGE value="npm 发布后使用有问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="npm 发布后使用有问题" />
+    <MESSAGE value="解决问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="解决问题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
