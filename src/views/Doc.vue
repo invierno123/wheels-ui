@@ -99,7 +99,7 @@ aside {
   z-index: $aside-index;
   top: 0;
   left: 0;
-  padding: 70px 0 16px;
+  padding: 70px 0 60px;
   height: 100%;
   overflow-y: auto;
   overflow-x: hidden;
