@@ -1,6 +1,6 @@
 {
-  "name": "invierno-wheel",
-  "version": "0.0.5",
+  "name": "winter-ui",
+  "version": "0.0.1",
   "files": [
     "dist/lib/*"
   ],
