@@ -3,16 +3,16 @@
 </demo>
 <template>
   <div>
-    <Button >Button1</Button>
-    <Button theme="link">Button2</Button>
-    <Button theme="text">Button3</Button>
+    <Button >默认按钮</Button>
+    <Button theme="link">链接按钮</Button>
+    <Button theme="text">文字按钮</Button>
   </div>
 </template>
 
 <script lang="ts">
 import {
   Button
-} from "../lib/index";
+} from "../../../lib";
 export default {
   components: {
     Button

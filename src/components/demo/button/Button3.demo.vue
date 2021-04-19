@@ -3,12 +3,13 @@
 </demo>
 <template>
  <div>
-   <div>
-     <Button level="main">主要按钮</Button>
+   <div class="button">
      <Button>普通按钮</Button>
+     <Button level="main">主要按钮</Button>
+     <Button level="success">成功按钮</Button>
+     <Button level="warning">警告按钮</Button>
      <Button level="danger">危险按钮</Button>
  </div>
-
  </div>
 </template>
 
@@ -18,7 +19,7 @@
 import {ref} from 'vue';
 import {
   Button
-} from "../lib/index";
+} from "../../../lib";
 
 export default {
   components: {
@@ -33,3 +34,15 @@ export default {
 };
 </script>
 
+<style lang="scss">
+.button{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  >button{
+
+     margin:4px;
+  }
+}
+
+</style>

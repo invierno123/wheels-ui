@@ -3,8 +3,8 @@
   <Demo :component="Tabs1Demo"/>
 </template>
 <script lang="ts">
-import Demo from './Demo.vue';
-import Tabs1Demo from './Tabs1.demo.vue';
+import Demo from '../Demo.vue';
+import Tabs1Demo from '../demo/tab/Tabs1.demo.vue';
 
 export default {
   components: {

@@ -47,6 +47,8 @@ $h: 32px;
 $border-color: #d9d9d9;
 $color: #333;
 $blue: #40a9ff;
+$yellow:	#FFFF33;
+$green:	#99FF33;
 $radius: 4px;
 $red: red;
 $grey: grey;
@@ -110,7 +112,7 @@ $grey: grey;
   &.wheel-theme-button {
     &.wheel-level-main {
       background: $blue;
-      color: white;
+      color: #ccc;
       border-color: $blue;
       &:hover,
       &:focus {
@@ -118,10 +120,30 @@ $grey: grey;
         border-color: darken($blue, 10%);
       }
     }
+    &.wheel-level-warning {
+      background: $yellow;
+      color: #ccc;
+      border-color: $yellow;
+      &:hover,
+      &:focus {
+        background: darken($yellow, 10%);
+        border-color: darken($yellow, 10%);
+      }
+    }
+    &.wheel-level-success {
+      background: $green;
+      color:#ccc;
+      border-color: $green;
+      &:hover,
+      &:focus {
+        background: darken($green, 10%);
+        border-color: darken($green, 10%);
+      }
+    }
     &.wheel-level-danger {
       background: $red;
       border-color: $red;
-      color: white;
+      color: #ccc;
       &:hover,
       &:focus {
         background: darken($red, 10%);
