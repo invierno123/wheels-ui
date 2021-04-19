@@ -3,8 +3,8 @@
     <div class="homePage">
       <TopNav/>
       <div class="banner">
-        <h1>轱辘UI</h1>
-        <h2>一个厉害的UI框架</h2>
+        <h1>Winter UI</h1>
+        <h2>一个简洁的UI框架</h2>
         <p class="actions">
           <a href="https://github.com/invierno123/wheels-ui">
             GitHub</a>
@@ -26,7 +26,7 @@
             <use xlink:href="#icon-typescript"></use>
           </svg>
           <h3>基于 TypeScript </h3>
-          <p>源代码采用 TypeScript 书写（非严格检查）</p>
+          <p>源代码采用 TypeScript 书写</p>
         </li>
         <li>
           <svg>
@@ -50,14 +50,21 @@ export default {
 <style lang="scss" scoped>
 $green: #02bcb0;
 $color: #007974;
+
+
+
+
 .homePage {
   background: linear-gradient(145deg, rgba(227, 255, 253, 1) 0%, rgba(183, 233, 230, 1) 100%);
-
+  ::v-deep(.topNav) {
+    background: transparent;
+  }
   clip-path: ellipse(80% 60% at 50% 40%);
 }
 .features{
   margin: 64px auto;
-  padding: 0 16px;
+  width: 300px;
+
   @media (min-width: 800px) {
     width: 800px;
     >ul {
@@ -77,6 +84,7 @@ $color: #007974;
   >ul {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     >li {
       margin: 16px 0;
       display: grid;
