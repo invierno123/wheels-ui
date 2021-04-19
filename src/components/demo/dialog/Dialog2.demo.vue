@@ -1,5 +1,5 @@
 <demo>
-一键打开 Dialog
+用 ts 一键打开 Dialog
 </demo>
 <template>
   <div>

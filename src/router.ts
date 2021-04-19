@@ -2,16 +2,19 @@
 import {createRouter, createWebHashHistory} from 'vue-router';
 import Home from './views/Home.vue';
 import Doc from './views/Doc.vue';
-import SwitchDemo from './components/SwitchDemo.vue';
-import ButtonDemo from './components/ButtonDemo.vue';
-import DialogDemo from './components/DialogDemo.vue';
-import TabsDemo from './components/TabsDemo.vue';
+import SwitchDemo from './components/routerDemo/SwitchDemo.vue';
+import ButtonDemo from './components/routerDemo/ButtonDemo.vue';
+import DialogDemo from './components/routerDemo/DialogDemo.vue';
+import TabsDemo from './components/routerDemo/TabsDemo.vue';
 import intro from './markdown/intro.md';
 import getStarted from './markdown/get-started.md';
 import install from './markdown/install.md';
-
+import InputDemo from './components/routerDemo/InputDemo.vue';
+import RadioDemo from './components/routerDemo/RadioDemo.vue';
+import TableDemo from './components/routerDemo/TableDemo.vue';
+import UpdateDemo from './components/routerDemo/UpdateDemo.vue';
 import {h} from 'vue';
-import Markdown from './components/Markdown.vue';
+import Markdown from './components/routerDemo/Markdown.vue';
 
 const history = createWebHashHistory();
 
@@ -30,6 +33,10 @@ export const router = createRouter({
         {path: 'button', component: ButtonDemo},
         {path: 'dialog', component: DialogDemo},
         {path: 'tabs', component: TabsDemo},
+        {path: 'input', component: InputDemo},
+        {path: 'radio', component: RadioDemo},
+        {path: 'table', component: TableDemo},
+        {path: 'update', component: UpdateDemo},
       ]
     }
   ]

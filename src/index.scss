@@ -41,7 +41,24 @@ h1,h2,h3,h4,h5,h6{
   background-color: rgba(125, 125, 125, 0.7);
   -webkit-border-radius: 6px;
 }
-
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
 body {
   line-height: 1.5;
   color: #1d2c40;
